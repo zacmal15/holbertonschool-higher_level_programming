@@ -8,8 +8,5 @@ def uppercase(str):
             # Convert lowercase to uppercase
             c = chr(ord(c) - 32)
 
-        # Print character without newline
-        print("%c" % ord(c), end="")
-
-    # Print newline at end
-    print()
+        # Print character and newline only at end
+        print("%c" % ord(c), end="" if c != str[-1] else "\n")

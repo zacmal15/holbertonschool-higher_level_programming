@@ -10,3 +10,6 @@ def uppercase(str):
 
         # Print character without newline
         print("{}".format(c), end="")
+
+    # Print final newline
+    print()

@@ -5,7 +5,6 @@ Hello.
 <BLANKLINE>
 How are you?
 <BLANKLINE>
-<BLANKLINE>
 
 >>> text_indentation("Python: is fun")
 Python:
@@ -17,11 +16,9 @@ Hi?
 <BLANKLINE>
 Yes.
 <BLANKLINE>
-<BLANKLINE>
 
 >>> text_indentation("  Hello.  ")
-Hello.
-<BLANKLINE>
+  Hello.
 <BLANKLINE>
 
 >>> text_indentation(5)

@@ -23,3 +23,16 @@
 
 >>> empty_list.print_sorted()
 []
+
+>>> negative_list = MyList([5, 2, 8])
+
+>>> negative_list.append(-4)
+
+>>> print(negative_list)
+[5, 2, 8, -4]
+
+>>> negative_list.print_sorted()
+[-4, 2, 5, 8]
+
+>>> print(negative_list)
+[5, 2, 8, -4]

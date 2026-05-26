@@ -28,6 +28,8 @@ Traceback (most recent call last):
 ...
 TypeError: price must be an integer
 
+>>> bg.integer_validator("valid_number", 100)
+
 >>> bg.area()
 Traceback (most recent call last):
 ...

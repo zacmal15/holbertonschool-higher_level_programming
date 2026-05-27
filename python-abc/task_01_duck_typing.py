@@ -13,6 +13,11 @@ class Shape(ABC):
         """Return shape perimeter."""
         pass
 
+    @abstractmethod
+    def area(self):
+        """Return shape area."""
+        pass
+
 
 class Circle(Shape):
     """Circle class."""

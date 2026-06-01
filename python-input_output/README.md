@@ -1,0 +1,1 @@
+this folder contains work relating to input and output in python

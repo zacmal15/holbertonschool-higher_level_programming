@@ -4,7 +4,7 @@
 
 def pascal_triangle(n):
     """Return a list of lists representing Pascal's triangle."""
-    if n<= 0:
+    if n <= 0:
         return []
 
     triangle = [[1]]

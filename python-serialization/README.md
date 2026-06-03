@@ -1,0 +1,1 @@
+this folder contains work related to serialisation/deserialisation of python objects/json files.

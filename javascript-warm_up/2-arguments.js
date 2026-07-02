@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!/usr/bin/node
 
 const argCount = process.argv.length -2;
 

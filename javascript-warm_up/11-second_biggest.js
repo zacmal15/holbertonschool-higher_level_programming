@@ -3,7 +3,7 @@
 let largest = -Infinity;
 let secondLargest = -Infinity;
 
-for (let i = 2; i < ProcessingInstruction.argv.length; i++) {
+for (let i = 2; i < process.argv.length; i++) {
   const current = parseInt(process.argv[i]);
 
   if (current > largest) {

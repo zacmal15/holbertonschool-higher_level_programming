@@ -9,7 +9,7 @@ for (let i = 2; i < process.argv.length; i++) {
   if (current > largest) {
     secondLargest = largest;
     largest = current;
-  } else if (current > secondLargest && current != largest) {
+  } else if (current > secondLargest && current !== largest) {
     secondLargest = current;
   }
 }
@@ -17,5 +17,5 @@ for (let i = 2; i < process.argv.length; i++) {
 if (process.argv.length <= 3) {
   console.log(0);
 } else {
-    console.log(secondLargest);
+  console.log(secondLargest);
 }

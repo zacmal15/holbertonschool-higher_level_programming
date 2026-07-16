@@ -1,0 +1,1 @@
+this folder contains templates used for the basic flask application

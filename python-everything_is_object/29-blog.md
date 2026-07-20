@@ -45,4 +45,5 @@ False
 ```
 `==` compares values
 `is` compares if 2 variables refer to the exact same object as each other.
+
 ---

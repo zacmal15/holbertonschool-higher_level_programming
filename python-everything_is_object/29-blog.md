@@ -22,3 +22,25 @@ x = 10
 print(type(x))
 print(id(x))
 ```
+Possible output:
+```python
+<class 'int'>
+140475236120752
+```
+The number returned by `id()` will be different everytime it runs.
+
+Python also lets us compare 2 variables in different ways:
+```python
+a = [1, 2]
+b = [1, 2]
+
+print(a == b)
+print(a is b)
+```
+Output:
+```python
+True
+False
+```
+`==` compares values
+`is` compares if 2 variables refer to the exact same object as each other.

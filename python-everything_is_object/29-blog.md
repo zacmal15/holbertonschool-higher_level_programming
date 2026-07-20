@@ -16,9 +16,9 @@ Every object in Python has 3 important properties:
 Object's identities are unique and can be viewed using the `id()` function.
 Object's type can be viewed using the `type()` function:
 
+```python
 x = 10
 
-```python
 print(type(x))
 print(id(x))
 ```

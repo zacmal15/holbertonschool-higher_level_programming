@@ -1,5 +1,4 @@
 ## Introduction:
-
 While studying Python, one of the first things I learnt is that everything in python is an object.
 This demonstrates why lists and variables can affect other variables, why integers behave differently from lists
 and how Python passes arguments to functions.
@@ -7,7 +6,6 @@ and how Python passes arguments to functions.
 In this project, I learnt about object identities, object types, mutable and immutable objects, references, aliases, and how python handles variables in arguments.
 ---
 ## Object Identity `(id)` & Type `(type)`:
-
 Every object in Python has 3 important properties:
 - Type
 - Value

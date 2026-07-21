@@ -129,3 +129,52 @@ Python3
 
 ## Why does mutability matter in Python?
 
+Mutability is important because it changes how Python functions.
+Such as in the following examples:
+Using `append()`:
+```python
+numbers = [1, 2, 3]
+
+numbers.append(4)
+```
+The original list is modified.
+Using `+`:
+```python
+numbers = [1, 2, 3]
+
+numbers = numbers + [4]
+```
+The second example creates a new list and then assigns the variable to that new object.
+The difference becomes even more important when multiple variables refer to the same object.
+Example:
+```python
+a = [1, 2]
+b = a
+
+a.append(3)
+
+print(b)
+```
+Output:
+```python
+[1, 2, 3]
+```
+However:
+```python
+a = [1, 2]
+b = a
+
+a = a + [3]
+
+print(b)
+```
+Output:
+```python
+[1, 2]
+```
+In the second example, `a` was assigned to a brand new list while `b` continued pointing to the original one.
+
+---
+
+## How Python passes arguments to functions
+

@@ -1,3 +1,5 @@
+![Python Objects](images.jpg)
+
 ## Introduction
 
 While studying Python, one of the first things I learnt is that everything in python is an object.

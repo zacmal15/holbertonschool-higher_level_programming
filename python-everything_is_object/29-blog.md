@@ -47,3 +47,44 @@ False
 `is` compares if 2 variables refer to the exact same object as each other.
 
 ---
+
+## Mutable Objects
+
+Mutable objects are objects that can be modified after being created.
+Common mutable objects include:
+- Lists
+- Dictionaries
+- Sets
+
+Example:
+```python
+numbers = [1, 2, 3]
+
+numbers.append(4)
+
+print(numbers)
+```
+Output:
+```python
+[1, 2, 3, 4]
+```
+The list itself changed rather than creating a new object.
+Another example is where 2 variables can refer to the same list:
+```python
+l1 = [1, 2, 3]
+l2 = l1
+
+l1.append(4)
+
+print(l2)
+```
+Output:
+```python
+[1, 2, 3, 4]
+```
+Both of these variables point to the same list, so modifying the list through one variable affects the other.
+
+---
+
+## Immutable Objects
+

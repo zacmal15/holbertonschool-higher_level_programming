@@ -178,3 +178,55 @@ In the second example, `a` was assigned to a brand new list while `b` continued 
 
 ## How Python passes arguments to functions
 
+Python passes references to objects.
+Whether changes are visible outside the function depends on whether the object is mutable or immutable.
+Example with immutable:
+```python
+def increment(number):
+    number += 1
+
+x = 5
+
+increment(x)
+
+print(x)
+```
+Output:
+```python
+5
+```
+Integer wasn't modified because integers are immutable.
+
+Example with mutable object:
+```python
+def add_item(items):
+    items.append(4)
+
+numbers = [1, 2, 3]
+
+add_item(numbers)
+
+print(numbers)
+```
+Output:
+```python
+[1, 2, 3, 4]
+```
+Since lists are mutable, the original object was modified.
+One last example demonstrates reassignment instead of modification:
+```python
+def assign_value(a, b):
+    a = b
+
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+
+assign_value(l1, l2)
+
+print(l1)
+```
+Output:
+```python
+[1, 2, 3]
+```
+Although `a` was reassigned inside the function, the original variable `l1` outside the function was unaffected because only the local reference changed.

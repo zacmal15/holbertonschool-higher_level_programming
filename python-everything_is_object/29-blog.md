@@ -88,3 +88,44 @@ Both of these variables point to the same list, so modifying the list through on
 
 ## Immutable Objects
 
+Immutable objects are objects that cannot be modified after they are created.
+Common immutable objects are:
+- Integers
+- Floats
+- Strings
+- Tuples
+- Booleans
+Instead of changing the existing object, python creates a new one.
+Example:
+```python
+x = 5
+
+print(id(x))
+
+x += 1
+
+print(id(x))
+```
+Possible output:
+```python
+140476521968296
+140476521968328
+```
+The object identifier changes because a new integer object is created.
+Strings behave the same way:
+```python
+name = "Python"
+
+name += "3"
+
+print(name)
+```
+Output:
+```python
+Python3
+```
+
+---
+
+## Why does mutability matter in Python?
+
